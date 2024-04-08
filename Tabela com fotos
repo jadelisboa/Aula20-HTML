@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+    
+ <font color="purple" size="7">
+   Tabelas - Parte 1
+ </font>
+</center>
+  
+  <br> <br>
+ 
+  <center>
+    <table border = 1 width = 500>
+    <tr>
+        <td width= "225" align="center"> <b> Nome </b> </td>
+        <td width= "110" align="center"> <b> Idade </b> </td>
+        <td width= "165" align="center"> <b> Foto </b> </td>
+    </tr>
+    <tr>
+        <td> Jade </td>
+        <td> 16 </td>
+        <td> <img src="mulher.avif" width="100"> </td>
+    </tr>
+    <tr>
+        <td> Murilo </td>
+        <td> 16 </td>
+        <td> <img src="../homens/homem.jpg" width="100"> </td>
+    </tr>
+        <tr>
+         <td> Maria </td>
+         <td> 16 </td>
+         <td> <img src="mulher2.jfif" width="100"> </td>
+        </tr>
+        <tr>
+            <td> João </td>
+            <td> 16 </td>
+            <td> <img src="../homens/homem2.jpg" width="100"> </td>
+        </tr>
+         <td> Gabriele </td>
+         <td> 16 </td>
+         <td> <img src="mulher3.jfif" width="100"> </td>
+        </tr>
+        <tr>
+            <td> Pacheco </td>
+            <td> 16 </td>
+            <td> <img src="../homens/homem3.jpg" width="100"> </td>
+        </tr>
+  </table>
+  </center>
+</body>
+
+</html>

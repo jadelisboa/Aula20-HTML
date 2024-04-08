@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $nome = prompt("Qual seu nome ?")
+        document.writeln("O nome digitado foi: " + $nome)
+
+        $sexo = prompt("Digite seu sexo? [H] ou [F]:")
+
+        $idade = prompt("Digite sua idade: ")
+            if (($sexo == "M") || ($sexo == "m")) 
+            {
+                if ($idade < 18) {
+                    alert("Menino")
+                }
+                else 
+                {
+                    alert("Homem")
+                }
+            }
+            else
+            {
+                if ($idade < 18) {
+                    alert("Menina")
+                }
+                else 
+                {
+                    alert("Mulher")
+                }
+            }
+
+
+        alert("hello world!")
+        document.write("<center>")
+        document.write("<font color='blue' size='6'>SENAI / Sumaré </font>")
+        document.write("<br>")
+        document.write("<img src='../homens/homem.jpg' width='150'>")
+        document.write("<br>")
+
+    </script>
+
+</head>
+
+<body>
+    <center>
+        <font color="purple" size="7">
+            Funcionários da escola SENAI
+        </font>
+
+    </center>
+    <br> <br>
+    <center>
+
+        <table border=1 width=500>
+            <tr>
+                <td width="225" align="center"> <b> Nome </b> </td>
+                <td width="110" align="center"> <b> Idade </b> </td>
+                <td width="165" align="center"> <b> Foto </b> </td>
+            </tr>
+
+            <tr>
+                <td> Jade </td>
+                <td> 21 </td>
+                <td><a href="https://github.com/jadelisboa"><img src="mulher.avif" width="100"></a> </td>
+            </tr>
+
+            <tr>
+                <td> Murilo </td>
+                <td> 26 </td>
+                <td> <img src="../homens/homem.jpg" width="100"> </td>
+            </tr>
+
+            <tr>
+                <td> Maria </td>
+                <td> 23 </td>
+                <td> <img src="mulher2.jfif" width="100"> </td>
+            </tr>
+
+            <tr>
+                <td> João </td>
+                <td> 25 </td>
+                <td> <img src="../homens/homem2.jpg" width="100"> </td>
+            </tr>
+
+            <tr>
+                <td> Gabriele </td>
+                <td> 30 </td>
+                <td> <img src="mulher3.jfif" width="100"> </td>
+            </tr>
+
+            <tr>
+                <td> Pacheco </td>
+                <td> 58 </td>
+                <td> <img src="../homens/homem3.jpg" width="100"> </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

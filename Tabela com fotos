@@ -9,7 +9,7 @@
 <center>
     
  <font color="purple" size="7">
-   Tabelas - Parte 1
+   Alunos da escola SENAI
  </font>
 </center>
   
@@ -25,7 +25,8 @@
     <tr>
         <td> Jade </td>
         <td> 16 </td>
-        <td> <img src="mulher.avif" width="100"> </td>
+        <td><a href="https://github.com/jadelisboa"><img src="mulher.avif" width = "100"></a> </td>
+    
     </tr>
     <tr>
         <td> Murilo </td>

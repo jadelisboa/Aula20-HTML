@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+    
+ <font color="purple" size="7">
+   Tabelas - Parte 1
+ </font>
+</center>
+  
+  <br> <br>
+ 
+  <center>
+    <table border = 1 width = 500>
+    <tr>
+        <td width= "225" align="center"> <b> Nome </b> </td>
+        <td width= "110" align="center"> <b> Idade </b> </td>
+        <td width= "165" align="center"> <b> Sexo </b> </td>
+    </tr>
+    <tr>
+        <td> Jade </td>
+        <td> 16 </td>
+        <td> Feminino </td>
+    </tr>
+        <tr>
+         <td> João </td>
+         <td> 16 </td>
+         <td> Masculino </td>
+        </tr>
+         <td> Maria </td>
+         <td> 16 </td>
+         <td> Feminino </td>
+        </tr>
+  </table>
+  </center>
+</body>
+
+</html>

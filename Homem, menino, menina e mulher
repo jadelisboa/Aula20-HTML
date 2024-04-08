@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $nome = prompt("Qual seu nome ?")
+        document.writeln("O nome digitado foi: " + $nome)
+
+        $sexo = prompt("Digite seu sexo? [M] ou [F]:")
+
+        $idade = prompt("Digite sua idade: ")
+            if (($sexo == "M") || ($sexo == "m")) 
+            {
+                if ($idade < 18) {
+                    alert("Menino")
+                }
+                else 
+                {
+                    alert("Homem")
+                }
+            }
+            else
+            {
+                if ($idade < 18) {
+                    alert("Menina")
+                }
+                else 
+                {
+                    alert("Mulher")
+                }
+            }
+</script>
